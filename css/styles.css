@@ -1,0 +1,12 @@
+main h1 {
+     color:#00ff00;
+     }
+     
+main p {
+     color:#ff0000;
+}
+
+a.currentPage:hover {
+     color:#ff0000;
+     
+}
