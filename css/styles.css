@@ -122,6 +122,31 @@ li a {
      
 }
 
+#bannerAbout {
+     overflow:hidden;
+     width:100%;
+     padding:200px auto;
+     
+     border-top:3px solid #b300ff;
+     background-size:cover;
+     background:url(../images/banner-home-image.jpg) no-repeat center top #ccff00;
+     margin:0 auto;
+
+     
+}
+#bannerContact {
+     overflow:hidden;
+     width:100%;
+     padding:0px;
+     
+     border-top:3px solid #b300ff;
+     background-size:cover;
+     background:url(../images/banner-home-image.jpg) no-repeat center top #ff00cc;
+     margin:0 auto;
+
+     
+}
+
 .center {
      width: 20em;
      margin:0 auto;
@@ -293,7 +318,21 @@ h3:hover {
      margin-bottom:16px;
 }
 
-
+.articleHome-left {
+     margin-top:433px;
+     color:#ccff00;
+     float:right;
+     width:67%;
+     border-radius:0px 33px 33px 0px;
+     text-align:justify;
+     
+   
+}
+.articleHome-left p {
+     margin:1px auto;
+     border-radius:0px 33px 33px 11px;
+     margin-bottom:16px;
+}
 
 
 
