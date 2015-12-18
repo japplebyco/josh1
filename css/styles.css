@@ -383,7 +383,7 @@ h3:hover {
      clear:right;
      border-radius:0px 33px 33px 0px;
      border:13px solid #ff00cc;
-     
+     margin-top:6px;
 }     
 h4 {
      color:#ccff00;
@@ -439,6 +439,7 @@ article.articleHome-left p {
      float:right;
      border-radius:33px 0px 8px 33px;
      margin-top:0px;
+     
 }
 .articleHome-right {
      margin-top:433px;
@@ -568,8 +569,23 @@ a.button:hover {
      background-color:#ccff00;
 }
 
+#video {
+     width:80%;
+     position:relative;
+     padding-bottom:56.25%;
+     
+     margin:0 auto;
+     overflow:hidden;
+}
 
-
+#video iframe, #video embed {
+     position:absolute;
+     top:20px;
+     
+     left:0px;
+     width:100%;
+     height:100%;
+}
 
 /*footer*/
 
@@ -618,7 +634,8 @@ footer {
 .fa-facebook {background-color:#3b5998;}
 .fa-twitter {background-color:#55aced;}
 .fa-instagram {background-color:#125688;}
-
+.fa-github {background-color:#000000;
+}
 .JoshApplebyCo {
     
      color:#ccff00;
@@ -633,5 +650,58 @@ footer {
      color:#b300ff;
      background-color:#ccff00;
 }
+
+/
+
+/*MOBILE WEBSITE STYLES*/
+
+@media screen and (max-width: 768px) {
+               .mainBody {
+                    width:90%;
+                    margin:0 auto;
+               }
+               
+               body {
+                    background-color:#000000;
+               }
+               
+                h1, h2, h3, h4, h5 {
+                    font-size:1em;
+               }
+               
+               nav {
+                    font-size:1em;
+               }
+               
+               a {
+                    font-size:.7em;
+               }
+               
+}
+
+@media screen and (max-width: 400px) {
+               .mainBody {
+                    width:90%;
+                    margin:0 auto;
+               }
+               
+               body {
+                    background-color:#ffffff;
+                    font-size:.7em;
+               }
+               
+               h1, h2, h3, h4, h5 {
+                    font-size:1em;
+               }
+               nav {
+                    font-size:1em;
+               }
+               
+               a {
+                    font-size:.7em;
+               }
+               
+}
+
 
 /*http://japplebyco.github.io/josh1/*/
